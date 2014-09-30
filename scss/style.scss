@@ -1,0 +1,14 @@
+@charset "UTF-8";
+// fonts
+@import "font-awesome/font-awesome";
+@import "fonts";
+
+// normalize/reset
+@import "normalize";
+@import "reset";
+
+// custom style
+@import "variables";
+@import "header";
+@import "footer";
+@import "main";

@@ -1,0 +1,215 @@
+extends layout
+
+block content
+	section.content
+		section.bHeadSlider.owl-carousel
+			.bSlide 1
+				.bSlideDescription
+					.row
+						.bSlideHeader Украина
+						.bSlideDivider
+						p.bSlideNotation
+							| PRAESENT UT QUAM EGET LEO LAOREET VESTIBULUM. SED SEMPER DUI ET PORTTITOR ACCUMSAN. ALIQUAM ERAT VOLUTPAT. NULLAM TEMPOR MOLLIS
+							| LACUS, A SUSCIPIT NUNC VEHICULA IN.
+			.bSlide 2
+				.bSlideDescription
+					.row
+						.bSlideHeader Украина 2
+						.bSlideDivider
+						p.bSlideNotation
+							| PRAESENT UT QUAM EGET LEO LAOREET VESTIBULUM. SED SEMPER DUI ET PORTTITOR ACCUMSAN. ALIQUAM ERAT VOLUTPAT. NULLAM TEMPOR MOLLIS
+							| LACUS, A SUSCIPIT NUNC VEHICULA IN.
+			.bSlide 3
+				.bSlideDescription
+					.row
+						.bSlideHeader Украина 3
+						.bSlideDivider
+						p.bSlideNotation
+							| PRAESENT UT QUAM EGET LEO LAOREET VESTIBULUM. SED SEMPER DUI ET PORTTITOR ACCUMSAN. ALIQUAM ERAT VOLUTPAT. NULLAM TEMPOR MOLLIS
+							| LACUS, A SUSCIPIT NUNC VEHICULA IN.
+			.bSlide 4
+				.bSlideDescription
+					.row
+						.bSlideHeader Украина 4
+						.bSlideDivider
+						p.bSlideNotation
+							| PRAESENT UT QUAM EGET LEO LAOREET VESTIBULUM. SED SEMPER DUI ET PORTTITOR ACCUMSAN. ALIQUAM ERAT VOLUTPAT. NULLAM TEMPOR MOLLIS
+							| LACUS, A SUSCIPIT NUNC VEHICULA IN.
+		.mWhiteBackground
+			section#features.row
+				article.feature.columns.small-12.large-4
+					h2 Трансфер
+						span.icon
+							i.fa.fa-bus
+					ul.columns.small-10.medium-9.large-9
+						li Phasellus ut tempor urna, id vestibulum lacus. Ut mollis eget velit sit amet sagittis.
+						li Pellentesque viverra, nisl sed bibendum tincidunt, dui nulla aliquet nisi, quis rutrum leo magna interdum elit.
+				article.feature.columns.small-12.large-4
+					h2 Проживание
+						span.icon
+							i.fa.fa-building-o
+					ul.columns.small-10.medium-9.large-9
+						li Phasellus ut tempor urna, id vestibulum lacus. Ut mollis eget velit sit amet sagittis.
+						li Pellentesque viverra, nisl sed bibendum tincidunt, dui nulla aliquet nisi, quis rutrum leo magna interdum elit.
+				article.feature.columns.small-12.large-4
+					h2 Туры
+						span.icon
+							i.fa.fa-suitcase
+					ul.columns.small-10.medium-9.large-9
+						li Phasellus ut tempor urna, id vestibulum lacus. Ut mollis eget velit sit amet sagittis.
+						li Pellentesque viverra, nisl sed bibendum tincidunt, dui nulla aliquet nisi, quis rutrum leo magna interdum elit.
+		section#hotAndNews
+			.row(data-equalizer)
+				section.hot-propose.columns.small-12.medium-6.large-6
+					h2 ГОРЯЩИЕ ПРЕДЛОЖЕНИЯ
+					.tour(data-equalizer-watch)
+						.img-wrap
+							a(href="")
+								img(src="img/tours/tour-1.jpg", alt="")
+						.tour-description.mWhiteBackground
+							h3 НАЗВАНИЕ ТУРА
+							p Dolor sit amet, consectetur adipiscing elit.
+							.divider
+							.location
+								i.fa.fa-map-marker
+								|  УЖГОРОД, УКРАИНА
+							.hotel
+								i.fa.fa-building-o
+								|  Отель «АТЛАНТ»
+							.cost 3276 €
+							.more-btn
+								i.fa.fa-angle-right
+								| Подробнее
+					.tour(data-equalizer-watch)
+						.img-wrap
+							a(href="")
+								img(src="img/tours/tour-2.jpg", alt="")
+						.tour-description.mWhiteBackground
+							h3 НОВЫЙ ТУР
+							p Dolor sit amet, consectetur adipiscing elit.
+							.divider
+							.location
+								i.fa.fa-map-marker
+								|  КЛЕВАНЬ, УКРАИНА
+							.hotel
+								i.fa.fa-building-o
+								|  Отель «ЗАРЯ»
+							.cost 2784 €
+							.more-btn
+								i.fa.fa-angle-right
+								| Подробнее
+					.tour(data-equalizer-watch)
+						.img-wrap
+							a(href="")
+								img(src="img/tours/tour-3.jpg", alt="")
+						.tour-description.mWhiteBackground
+							h3 ТУР НОВЫЙ
+							p Dolor sit amet, consectetur adipiscing elit.
+							.divider
+							.location
+								i.fa.fa-map-marker
+								|  КАРПАТЫ, УКРАИНА
+							.hotel
+								i.fa.fa-building-o
+								|  Отель «СИНЕВИР»
+							.cost 1987 €
+							.more-btn
+								i.fa.fa-angle-right
+								| Подробнее
+				section.new-articles.columns.small-12.medium-6.large-6
+					h2 НОВЫЕ СТАТЬИ
+					.news(data-equalizer-watch)
+						.img-wrap
+							img(src="img/news/news-1.jpg", alt="")
+							.info-panel
+								p
+									| ЕВРОПЕЙСКАЯ КУХНЯ
+									br
+									|ЕВРОПА, ЕДА
+								<time datetime="2013-08-22">22.08.13</time>
+						.description.mWhiteBackground
+							h3 INTERDUM ET MALESUADA FAMES AC ANTE IPSUM PRIMIS
+							.divider
+							p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing
+								| elit. Mauris lacinia risus eget lorem venenatis,
+								| vulputate tristique odio sagittis. Phasellus ut tempor
+							.more-btn
+								i.fa.fa-angle-right
+								| Далее
+					.news(data-equalizer-watch)
+						.img-wrap
+							a(href="")
+								img(src="img/news/news-2.jpg", alt="")
+							.info-panel
+								p
+									| ЕВРОПЕЙСКАЯ КУХНЯ
+									br
+									|ЕВРОПА, ЕДА
+								<time datetime="2013-08-22">22.08.13</time>
+						.description.mWhiteBackground
+							h3 INTERDUM ET MALESUADA FAMES AC ANTE IPSUM PRIMIS
+							.divider
+							p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing
+								| elit. Mauris lacinia risus eget lorem venenatis,
+								| vulputate tristique odio sagittis. Phasellus ut tempor
+							.more-btn
+								i.fa.fa-angle-right
+								| Далее
+					.news(data-equalizer-watch)
+						.img-wrap
+							a(href="")
+								img(src="img/news/news-3.jpg", alt="")
+							.info-panel
+								p
+									| ЕВРОПЕЙСКАЯ КУХНЯ
+									br
+									|ЕВРОПА, ЕДА
+								<time datetime="2013-08-22">22.08.13</time>
+						.description.mWhiteBackground
+							h3 INTERDUM ET MALESUADA FAMES AC ANTE IPSUM PRIMIS
+							.divider
+							p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing
+								| elit. Mauris lacinia risus eget lorem venenatis,
+								| vulputate tristique odio sagittis. Phasellus ut tempor
+							.more-btn
+								i.fa.fa-angle-right
+								| Далее
+		.mWhiteBackground
+			section#reviews.row(data-equalizer)
+				h2 Отзывы наших клиентов
+				.review.columns.small-12.medium-4.large-4
+					p.comment(data-equalizer-watch)
+						| @A creative man is motivated by the desire to achieve, not
+						| by the desire to beat others. I don't believe you have to be
+						| better than everybody else. I believe you have to be better
+						| than you ever thought you could ever be.
+					.author
+						img(src="img/comments/author-1.jpg", alt="")
+						.sign
+							a.name(href="#") Katelyn Friedson
+							p.nickname @kfriedson
+				.review.columns.small-12.medium-4.large-4
+					p.comment(data-equalizer-watch)
+						| @Praesent ut quam eget leo laoreet vestibulum. Sed semper
+						| dui et porttitor accumsan. Aliquam erat volutpat. Nullam
+						| tempor mollis lacus.
+					.author
+						img(src="img/comments/author-2.jpg", alt="")
+						.sign
+							a.name(href="#") Lee Munroe
+							p.nickname @leemunroe
+				.review.columns.small-12.medium-4.large-4
+					p.comment(data-equalizer-watch)
+						| @ Morbi convallis mattis consectetur. Vestibulum mollis
+						| libero quis quam volutpat, quis consequat nulla porttitor.
+						| Morbi vehicula euismod eros, eget tristique metus
+						| sollicitudin interdum.
+					.author
+						img(src="img/comments/author-3.jpg", alt="")
+						.sign
+							a.name(href="#") Sam Soffes
+							p.nickname @soffes
+		//- .clearfix
